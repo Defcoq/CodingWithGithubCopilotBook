@@ -1,0 +1,11 @@
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\bin\Debug\net8.0\ECommerce.Model.deps.json
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\bin\Debug\net8.0\ECommerce.Model.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\bin\Debug\net8.0\ECommerce.Model.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.AssemblyInfoInputs.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.AssemblyInfo.cs
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.csproj.CoreCompileInputs.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\refint\ECommerce.Model.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.Model\obj\Debug\net8.0\ref\ECommerce.Model.dll

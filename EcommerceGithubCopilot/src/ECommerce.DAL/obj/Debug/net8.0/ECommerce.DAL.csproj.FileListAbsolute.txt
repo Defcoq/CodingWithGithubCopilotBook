@@ -1,0 +1,17 @@
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.AssemblyInfoInputs.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.AssemblyInfo.cs
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.csproj.CoreCompileInputs.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.csproj.AssemblyReference.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\bin\Debug\net8.0\ECommerce.DAL.deps.json
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\bin\Debug\net8.0\ECommerce.DAL.runtimeconfig.json
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\bin\Debug\net8.0\ECommerce.DAL.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\bin\Debug\net8.0\ECommerce.DAL.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\bin\Debug\net8.0\ECommerce.Model.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\bin\Debug\net8.0\ECommerce.Model.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerc.37DF4472.Up2Date
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\refint\ECommerce.DAL.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.genruntimeconfig.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.DAL\obj\Debug\net8.0\ref\ECommerce.DAL.dll

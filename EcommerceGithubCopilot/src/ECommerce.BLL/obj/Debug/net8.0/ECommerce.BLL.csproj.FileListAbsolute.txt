@@ -1,0 +1,11 @@
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\bin\Debug\net8.0\ECommerce.BLL.deps.json
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\bin\Debug\net8.0\ECommerce.BLL.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\bin\Debug\net8.0\ECommerce.BLL.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.AssemblyInfoInputs.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.AssemblyInfo.cs
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.csproj.CoreCompileInputs.cache
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\refint\ECommerce.BLL.dll
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.pdb
+C:\Workspace\GithubCopilot\EcommerceGithubCopilot\src\ECommerce.BLL\obj\Debug\net8.0\ref\ECommerce.BLL.dll
