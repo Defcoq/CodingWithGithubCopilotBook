@@ -1,0 +1,46 @@
+PROMPT 1:
+/@workspace new crea una soluzione vuota c# (empty solution project) chiamata EcommerceGithubCopilot
+
+PROMPT 2 :
+Voglio creare da zero un piccolo progetto di e-commerce da zero usando C#. Segui questi requisiti passo dopo passo e chiedimi conferma dopo ogni passo prima di procedere al successivo:
+Panoramica del Progetto:
+Il progetto seguirà il pattern di Clean Architecture con i seguenti livelli:
+Livello Modello: Per definire le entità (Product, Category, User).
+Data Access Layer (DAL): Utilizzando Entity Framework Core con un pattern repository.
+Business Logic Layer (BLL): Per le operazioni di logica aziendale.
+Livello API: API Web ASP.NET Core con Swagger abilitato.
+Includi un'applicazione console per interagire con l'API a scopo di test.
+Aggiungi progetti di test unitari per i livelli DAL e BLL.
+Istruzioni Passo dopo Passo:
+Passo 1: Configura la struttura della soluzione con i seguenti progetti:
+ECommerce.Model: Libreria di classi per i modelli delle entità.
+ECommerce.DAL: Libreria di classi per il livello di accesso ai dati utilizzando Entity Framework Core.
+ECommerce.BLL: Libreria di classi per il livello di logica aziendale.
+ECommerce.API: API Web ASP.NET Core con Swagger abilitato.
+ECommerce.ConsoleApp: Applicazione Console per interagire con l'API.
+ECommerce.Tests.DAL: Progetto di test unitari per il DAL.
+ECommerce.Tests.BLL: Progetto di test unitari per il BLL. Chiedi conferma prima di procedere con l'implementazione dei livelli.
+Passo 2: Crea il livello Modello:
+Definisci le entità: Product, Category, e User.
+Ogni entità dovrebbe avere le proprietà pertinenti (chiedimi i dettagli se necessario) e le relazioni appropriate.
+Passo 3: Configura il DAL:
+Usa Entity Framework Core per configurare il contesto del database (ECommerceDbContext).
+Implementa il pattern repository per le operazioni CRUD.
+Aggiungi le migrazioni iniziali e applica lo schema del database.
+Conferma l'implementazione prima di procedere al passaggio successivo.
+Passo 4: Implementa il BLL:
+Crea classi di servizio per gestire la logica aziendale di Product, Category, e User.
+Usa l'injection delle dipendenze per connettere il BLL con il DAL.
+Passo 5: Costruisci l'API:
+Configura l'API Web ASP.NET Core con endpoint CRUD per Product, Category, e User.
+Abilita Swagger per la documentazione dell'API.
+Passo 6: Crea l'applicazione Console:
+Aggiungi funzionalità per interagire con l'API (es. elenca i prodotti, crea un nuovo prodotto, ecc.).
+Passo 7: Aggiungi Test Unitari:
+Scrivi test unitari per i livelli DAL e BLL per garantire il corretto funzionamento.
+Ad ogni passo, chiedi conferma prima di procedere. Assicurati di gestire correttamente gli errori, seguire pratiche di codice pulito e aggiungere commenti per migliorare la leggibilità.
+
+
+Devi aggiungere tutti questi nuovi progetti nella soluzione esistente @workspace EcommerceGithubCopilot.sln
+
+PROMPT 3:

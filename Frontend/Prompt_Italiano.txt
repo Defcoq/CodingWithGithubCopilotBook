@@ -1,0 +1,60 @@
+PROMPT 1:
+"Voglio creare la parte UI/UX di un'applicazione Angular per un piccolo progetto di e-commerce. Seguendo l'architettura modulare di Angular, genereremo codice passo dopo passo. Chiedimi conferma prima di procedere con ogni passo. Ecco i requisiti:
+Panoramica del progetto:
+L'applicazione sarà composta da moduli Angular per ogni funzionalità principale:
+ProductModule: Per la gestione dei prodotti.
+CategoryModule: Per la gestione delle categorie.
+UserModule: Per la gestione degli utenti.
+Ogni modulo includerà componenti per liste, dettagli e form CRUD.
+L'applicazione utilizzerà Angular Material per il design e componenti responsive.
+Istruzioni passo dopo passo:
+Passo 1: Configura la struttura del progetto Angular:
+Genera i moduli: ProductModule, CategoryModule, UserModule usando il CLI di Angular.
+Configura un modulo principale AppModule con il routing per navigare tra i moduli.
+Chiedimi conferma prima di procedere al prossimo passo.
+Passo 2: Crea i componenti per il modulo ProductModule:
+Genera i seguenti componenti:
+ProductListComponent: Per mostrare l'elenco dei prodotti in una tabella con un pulsante "Aggiungi prodotto".
+ProductDetailsComponent: Per mostrare i dettagli di un prodotto selezionato.
+ProductFormComponent: Per aggiungere o modificare un prodotto.
+Usa Angular Material per i componenti visivi come tabelle, pulsanti e input.
+Chiedimi conferma prima di procedere.
+Passo 3: Implementa il layout principale:
+Aggiungi un layout principale con una barra di navigazione (usando mat-toolbar) e un menu laterale (usando mat-sidenav) per accedere ai moduli.
+Rendi il layout responsivo utilizzando le griglie di Angular Material.
+Passo 4: Aggiungi stile personalizzato:
+Genera un file styles.scss globale e applica uno schema di colori coerente per l'applicazione.
+Utilizza variabili SCSS per i colori principali e secondari.
+Passo 5: Configura i form CRUD:
+Implementa moduli reattivi in ProductFormComponent con la validazione per i campi obbligatori (nome, prezzo, categoria).
+Aggiungi messaggi di errore dinamici sotto i campi del form.
+Passo 6: Crea componenti per CategoryModule e UserModule:
+Segui la stessa struttura del ProductModule per gestire CRUD di categorie e utenti.
+Passo 7: Ottimizza e testa:
+Integra i componenti con i servizi API esistenti (simulati o reali).
+Usa HttpClientModule per connettere i componenti CRUD ai metodi API.
+Testa ogni componente per verificare che i dati vengano visualizzati e aggiornati correttamente.
+Nota importante:
+Ogni componente deve essere conforme alle best practice di Angular, incluso l'uso di Input/Output per la comunicazione tra componenti.
+Usa Angular Material per garantire un design moderno e responsive.
+Ad ogni passo, fermati e chiedimi conferma prima di procedere.
+Genera il codice Angular passo dopo passo, assicurandoti di seguire questa guida."
+
+PROMPT 2 :
+Genera tre componenti Angular per il ProductModule: una lista prodotti con tabella e pulsante 'Aggiungi Prodotto', un componente per i dettagli di un prodotto, e 
+un form CRUD per aggiungere o modificare un prodotto. Usa Angular Material per i componenti visivi.
+
+PROMPT 3 :
+Crea un layout principale con una barra di navigazione e un menu laterale per navigare tra i moduli. Assicurati che il design sia responsivo.
+
+PROMPT 4 :
+Configura uno stile globale per l'app Angular usando SCSS. Aggiungi variabili per colori principali e secondari, e applica uno schema di colori coerente.
+
+PROMPT 5 :
+Crea un form Angular reattivo per il modulo ProductModule con campi validati. Aggiungi messaggi di errore sotto i campi obbligatori come nome, prezzo, e categoria.
+
+PROMPT 6:
+Genera i moduli CategoryModule e UserModule con componenti per liste, dettagli e form CRUD. Segui la struttura del ProductModule.
+
+PROMPT 7:
+Integra i componenti CRUD con un servizio API simulato o reale usando HttpClientModule. Testa ogni componente per assicurarti che i dati vengano visualizzati e aggiornati correttamente

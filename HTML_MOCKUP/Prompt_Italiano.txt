@@ -1,0 +1,11 @@
+PROMPT 1:
+"Crea un mockup in Markdown per una pagina web di un negozio online. La pagina deve essere divisa in 5 sezioni principali:
+Header: un'intestazione con il logo, una barra di ricerca e delle icone per l'utente.
+Hero: una sezione prominente con un titolo principale, un sottotitolo e un pulsante.
+Categorie: una sezione con diverse categorie, ognuna con un'icona e un nome.
+Prodotti in evidenza: una sezione che mostra i prodotti con le immagini, il nome e un pulsante di acquisto.
+Footer: una sezione con i link utili, social media e un modulo per la newsletter."_
+
+PROMPT 2 :
+Genera un codice HTML e CSS per il mockup sopra descritto, 
+con una struttura responsive che includa una barra di navigazione, una sezione hero, categorie, prodotti in evidenza, promozioni e footer.

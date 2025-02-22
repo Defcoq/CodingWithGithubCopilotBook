@@ -1,0 +1,19 @@
+Prompt 1: Prompt per la Conversione in Flutter/Dart
+Converti il seguente codice Java di un'app Android Nativa in una versione Flutter/Dart. L'app deve mostrare un messaggio di benvenuto e includere un pulsante che, al clic, mostri un messaggio Toast. Fornisci sia il codice del file Dart principale (main.dart) sia il layout necessario. Ecco il codice originale:
+
+Prompt 2: Prompt per la Conversione in Xamarin/.NET MAUI
+Converti il seguente codice Java di un'app Android Nativa in una versione Xamarin/.NET MAUI. L'app deve mostrare un messaggio di benvenuto e includere un pulsante che, al clic, mostri un messaggio Toast o un pop-up. Fornisci il codice completo sia per il file MainPage.xaml sia per MainPage.xaml.cs. Ecco il codice originale dell'app Android Nativa:
+
+Prompt 3: Trandurre in C#
+"Converti il seguente codice Java in C#. Assicurati di utilizzare la classe Console per input e output. Il codice deve leggere due numeri dall'utente e calcolarne la somma. Ecco il codice Java:"
+
+Prompt 4 : Tradurre in python
+"Converti il seguente codice C# in Python. Assicurati di utilizzare la funzione input() per leggere i numeri dall'utente e stampare il risultato. Ecco il codice C#:"
+
+Prompt 5 : Migrazione a ASP.NET Core MVC
+"Converti questa WebForm ASPX in un controller MVC e una vista Razor per ASP.NET Core. Assicurati che il controller gestisca il salvataggio dei dati in memoria (simulato) e visualizzi un messaggio di conferma. Ecco il codice originale:"
+
+Prompt 6 : Migrazione a Razor Pages
+"Converti questa WebForm ASPX in una Razor Page per ASP.NET Core. Assicurati che il codice gestisca il salvataggio dei dati in memoria (simulato) e mostri un messaggio di conferma. Ecco il codice originale:"
+
+Prompt 7

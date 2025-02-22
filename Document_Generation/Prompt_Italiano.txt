@@ -1,0 +1,6 @@
+PROMPT 1: "utilizzando mermaid js Crea un diagramma UML di classe con le seguenti classi: Utente con attributi id, nome, email, e una relazione 1:N con Ordine, che ha id, data, importo. aggiungere il markdown"
+
+PROMPT 2 (specifica il file con la variabile #file): “#file CfgStatoFlussoController.cs” questo è un file csharp di un controller, creare il diagramma di classe usando mermaid js, include il markdown
+
+PROMPT 3 :
+"Crea un diagramma delle entità per un database con le tabelle Clienti, Ordini e Prodotti. Clienti ha id, nome, email. Ordini ha id, idCliente, idProdotto, quantità. Prodotti ha id, nome, prezzo."

@@ -1,0 +1,16 @@
+PROMPT 1 
+Crea un Dockerfile per un'applicazione Node.js che copia il codice dell'app, installa le dipendenze, espone la porta 3000 ed esegue l'app..
+
+PROMPT 2
+"Crea un file YAML di deployment per Kubernetes per distribuire l'app Node.js, esponendola tramite un servizio sulla porta 3000 e garantendo due repliche."
+
+PROMPT 3 :
+ "Genera una configurazione del repository Git per un'applicazione Node.js, includendo un file .gitignore che esclude node_modules e altri file non necessari.."
+
+PROMPT 4 :
+Crea un file YAML per il workflow di GitHub Actions per costruire l'immagine Docker, caricarla su Docker Hub e distribuire l'app Node.js su Kubernetes.
+
+PROMPT 5:
+
+
+

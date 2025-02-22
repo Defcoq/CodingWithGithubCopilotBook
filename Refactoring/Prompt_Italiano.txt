@@ -1,0 +1,26 @@
+PROMPT 1 : TODO
+"Refattorizza il seguente codice rispettando i principi di programmazione SOLID, KISS, YAGNI e DRY. Separare la logica di interazione con l'utente dalla logica di gestione delle attività:
+Crea una classe separata TaskService che si occupi delle operazioni relative alle attività (aggiungere, aggiornare, visualizzare e rimuovere attività).
+Crea una classe UserInterface che gestisca tutte le interazioni con l'utente (input/output).
+La classe Program deve rimanere responsabile solo di avviare il programma e interagire con l'utente, delegando la gestione delle attività a TaskService e la gestione dell'interfaccia utente a UserInterface.
+Assicurati che il codice sia modulare, facilmente testabile, manutenibile, e che segua i seguenti principi:
+SOLID: Ogni classe deve avere una singola responsabilità e una chiara separazione dei compiti.
+KISS (Keep It Simple, Stupid): Mantieni il codice semplice e comprensibile.
+YAGNI (You Aren't Gonna Need It): Non aggiungere funzionalità non necessarie.
+DRY (Don't Repeat Yourself): Evita la duplicazione del codice e centralizza le logiche comuni."
+
+PROMPT 2: Complessità algoritmica
+Analizza passo per passo la complessità algoritmica del seguente codice legacy in C#. 
+Considera ogni ciclo, query LINQ e chiamata al database per determinare la complessità temporale del metodo AvailableTenantsForDashboard. 
+Fornisci spiegazioni per ogni operazione e suggerisci aree in cui la complessità potrebbe essere migliorata.
+
+PROMPT 3 : Chiedere una Metodologia per Migliorare la Complessità
+Sulla base dell'analisi della complessità algoritmica del metodo AvailableTenantsForDashboard, suggerisci una metodologia per ottimizzarne le prestazioni. Concentrati sulla riduzione delle iterazioni ridondanti, minimizzando l'overhead delle query LINQ ed evitando chiamate al database non necessarie.
+Fornisci un piano ad alto livello per effettuare il refactoring del codice e ottenere migliori prestazioni.
+
+PROMPT 4 : Richiedere il Refactoring del Codice con la Metodologia
+Effettua il refactoring del seguente codice C# utilizzando la metodologia suggerita per migliorare la sua complessità algoritmica. Ottimizza le query LINQ, riduci il numero di iterazioni e limita la dipendenza dalle chiamate al database sincrone. Assicurati che il codice refattorizzato mantenga la stessa funzionalità dell'originale migliorandone 
+al contempo le prestazioni. Aggiungi commenti per spiegare passo per passo le modifiche apportate
+
+
+

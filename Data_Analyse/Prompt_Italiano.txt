@@ -1,0 +1,41 @@
+PROMPT 1: PYTHON
+Voglio creare uno script Python per un progetto di analisi dati. Ecco i requisiti:
+
+1. Importa le librerie necessarie: Pandas, Matplotlib, Scikit-learn, e altre eventuali utili per l'analisi e la visualizzazione dei dati.
+2. Carica un dataset CSV (ad esempio, un dataset sui prezzi delle case) usando Pandas.
+3. Esegui un'esplorazione preliminare dei dati:
+   - Mostra le prime righe del dataset.
+   - Fornisci statistiche descrittive (media, mediana, deviazione standard, ecc.).
+   - Visualizza la correlazione tra le variabili utilizzando una heatmap.
+4. Pulisci i dati:
+   - Gestisci valori mancanti (ad esempio, riempi o elimina righe/colonne).
+   - Normalizza i dati numerici, se necessario.
+5. Dividi il dataset in dati di addestramento e di test.
+6. Crea un modello di regressione lineare con Scikit-learn per prevedere il prezzo delle case.
+7. Valuta il modello:
+   - Fornisci metriche di valutazione come MSE (Mean Squared Error) e R2 score.
+   - Genera un grafico per confrontare i valori previsti con quelli reali.
+8. Esporta il modello addestrato in un file per un utilizzo futuro.
+
+Fornisci il codice per ogni passo, chiedimi conferma prima di passare al successivo.
+
+PROMPT 2: c# ML.NET
+Voglio creare un'applicazione console in C# per un progetto di analisi dati. Ecco i requisiti:
+
+1. Configura un nuovo progetto console C# utilizzando .NET.
+2. Aggiungi il pacchetto NuGet ML.NET (Microsoft.ML e Microsoft.ML.AutoML).
+3. Carica un dataset CSV (ad esempio, un dataset con vendite di prodotti) e definisci una classe modello per rappresentare i dati (ad esempio, `ProductSalesData` con proprietà come `Price`, `Category`, `Seasonality`, `Sales`).
+4. Esegui una pulizia preliminare dei dati:
+   - Ignora colonne non utili.
+   - Gestisci valori mancanti.
+5. Prepara i dati per il modello:
+   - Effettua il mapping delle feature numeriche e categoriali utilizzando pipeline di ML.NET.
+   - Dividi il dataset in training e test.
+6. Crea un modello di regressione per prevedere le vendite utilizzando un algoritmo come FastTreeRegression.
+7. Addestra il modello e valuta le sue prestazioni:
+   - Fornisci metriche di valutazione come R-squared e MAE (Mean Absolute Error).
+   - Visualizza i risultati stampando un confronto tra i valori previsti e reali.
+8. Esporta il modello addestrato in un file .zip per future previsioni.
+
+Fornisci il codice per ogni passo e fermati per chiedermi conferma prima di procedere al successivo.
+

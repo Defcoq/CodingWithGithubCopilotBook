@@ -1,0 +1,82 @@
+Prompt 1
+Per un sistema di gestione di una biblioteca, definiamo le seguenti entità principali:
+Libri: Contiene le informazioni sui libri.
+Autori: Contiene i dati degli autori dei libri.
+Utenti: Gli utenti registrati che prendono i libri in prestito.
+Prestiti: Registra i prestiti dei libri effettuati dagli utenti.
+Categorie: Categorizza i libri (es. romanzo, saggistica, ecc.).
+Relazioni tra le tabelle
+Un autore può scrivere più libri (relazione 1-N).
+Un libro può appartenere a più categorie (relazione N-N).
+Un utente può prendere in prestito più libri (relazione 1-N).
+Ogni prestito collega un utente a un libro specifico.
+
+
+Prompt 2
+Crea una tabella SQL chiamata Autori con i campi: IdAutore (PK), Nome, Cognome, DataNascita.
+
+Prompt 3
+Crea una tabella Libri con IdLibro (PK), Titolo, AnnoPubblicazione, IdAutore (FK).
+
+Prompt 4
+Crea una tabella Categorie con IdCategoria (PK) e NomeCategoria.
+
+Prompt 5
+Crea una tabella LibriCategorie per gestire la relazione N-N tra Libri e Categorie.
+
+Prompt 6
+Crea una tabella Utenti con IdUtente (PK), Nome, Cognome, Email.
+
+Prompt 7
+Crea una tabella Prestiti con IdPrestito (PK), IdUtente (FK), IdLibro (FK), DataInizio, DataFine.
+
+Prompt 8
+Scrivi una query SQL per ottenere tutti i libri scritti dall'autore 'Mario Rossi'.
+
+Prompt 9
+Scrivi una query SQL per contare quanti libri appartengono a ogni categoria.
+
+
+Prompt 10
+Scrivi una query SQL per ottenere l'elenco dei libri non ancora restituiti, includendo il nome del libro, l'utente che lo ha preso in prestito e la data di inizio del prestito.
+
+
+Prompt 11
+Scrivi una query SQL per mostrare il numero totale di libri scritti da ogni autore.
+
+
+Prompt 12
+Scrivi una query SQL per calcolare il numero medio di libri in ogni categoria.
+
+
+Prompt 13
+Scrivi una query SQL per trovare gli utenti con più di 3 prestiti ancora in corso.
+
+
+Prompt 14
+Scrivi una query SQL per mostrare tutti i libri che appartengono alla categoria 'Romanzo'.
+
+Prompt 15
+Utilizzando una CTE, mostra i libri presi in prestito negli ultimi 30 giorni.
+
+Prompt 16
+Scrivi una query SQL per generare un report che mostra ogni autore con il numero totale di libri scritti, il numero di libri in prestito e il numero di libri disponibili.
+
+Prompt 17
+Scrivi una stored procedure in T-SQL per aggiungere un prestito alla tabella Prestiti controllando se il libro non è già in prestito.
+
+Prompt 18
+Scrivi una stored procedure per aggiornare un prestito e segnare un libro come restituito.
+
+Prompt 19
+Scrivi una funzione T-SQL per contare quanti libri sono in prestito per un determinato utente.
+
+Prompt 20
+Scrivi una funzione per calcolare la durata media dei prestiti completati.
+
+Prompt 21
+Scrivi una stored procedure che restituisce un report dettagliato dei libri attualmente in prestito, inclusi i dati degli utenti e dei libri.
+
+
+
+Prompt 25

@@ -1,0 +1,20 @@
+PROMPT 1 : SQL INJECTION
+"Scrivi un'app in C# che utilizzi Semantic Kernel per rispondere a domande frequenti. L'app deve caricare un set di documenti di FAQ e usare il modello linguistico per rispondere a domande in linguaggio naturale come 'Come posso contattare l'assistenza?'"
+
+PROMPT 2 :
+"Scrivi il codice per configurare l'integrazione con un modello LLM tramite Semantic Kernel. Devi preparare il contesto (un insieme di documenti) e inviare la domanda dell'utente al modello LLM per ottenere una risposta."
+
+PROMPT 3 :
+"Crea una funzione che prenda una domanda in linguaggio naturale, la combini con il contesto delle FAQ, e invii la richiesta a un modello linguistico. La funzione deve essere ottimizzata per fornire risposte precise e contestualizzate."
+
+PROMPT 4:
+"Scrivi un'app in Python che utilizzi Langchain per rispondere a domande frequenti. L'app deve caricare una base di conoscenza di FAQ (documenti o file di testo) e rispondere a domande in linguaggio naturale."
+
+PROMPT 5:
+"Scrivi il codice per integrare Langchain con un modello LLM che risponde a domande. Il codice deve prendere una domanda dall'utente, combinarla con il contesto delle FAQ, e restituire la risposta migliore possibile."
+
+PROMPT 6:
+"Crea una funzione in Langchain che tenga traccia delle domande precedenti per migliorare la qualità delle risposte successive. L'app deve memorizzare il contesto delle risposte precedenti e usarlo per ottimizzare le risposte future."
+
+
+

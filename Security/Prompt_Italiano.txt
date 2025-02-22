@@ -1,0 +1,16 @@
+PROMPT 1 : SQL INJECTION
+/explain #selection
+Spiegami se questa sezione del codice ha problemi di sicurezza, in particolare per quanto riguarda SQL Injection, e suggerisci come posso migliorare la sicurezza utilizzando query parametrizzate.
+
+PROMPT 2:
+/explain #selection
+Spiegami se questa parte del codice è vulnerabile a XSS e suggerisci come posso sanificare o scappare l'input dell'utente prima di visualizzarlo nella pagina.
+oppure
+/explain #selection che problema di sicurezza potrebbe avere questo codice selezionato
+
+PROMPT 3 :
+/explain #selection
+Spiegami se questa parte del codice è vulnerabile a CSRF e suggerisci come posso proteggere questa azione con un token CSRF.
+oppure
+/explain #selection spiegami la vulnerabilità che potrebbe avere questo codice
+

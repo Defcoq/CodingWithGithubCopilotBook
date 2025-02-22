@@ -1,0 +1,106 @@
+PROMPT 1 : Test per la Validazione dei Dati in Ingresso (Metodo AddBook)
+Scrivi test unitari per il metodo `AddBook` della classe `LibraryService`.  
+Il metodo deve:  
+1. Lanciare un'eccezione se il parametro `book` è null.  
+2. Lanciare un'eccezione se il parametro `book.Title` è null o vuoto.  
+3. Aggiungere correttamente un libro se il parametro è valido.  
+Utilizza NUnit e un mock per `ILibraryRepository` per verificare le interazioni.
+ 
+PROMPT 2: Test per la Ricerca di Libri (Metodo FindBookByTitle)
+Scrivi test unitari per il metodo `FindBookByTitle` della classe `LibraryService`.  
+Il metodo deve:  
+1. Lanciare un'eccezione se il parametro `title` è null o vuoto.  
+2. Restituire null se non esiste un libro con il titolo specificato.  
+3. Restituire il libro corretto se esiste un libro con il titolo specificato.  
+Utilizza NUnit e un mock per `ILibraryRepository`.
+
+PROMPT 3 : Test per il Prestito di Libri (Metodo LoanBook)
+Scrivi test unitari per il metodo `LoanBook` della classe `LibraryService`.  
+Il metodo deve:  
+1. Lanciare un'eccezione se il libro con l'ID specificato non esiste.  
+2. Lanciare un'eccezione se il libro non è disponibile (già prestato).  
+3. Impostare correttamente la proprietà `IsAvailable` del libro su `false` se il prestito è consentito.  
+4. Assicurarsi che il metodo `Update` del repository venga chiamato per aggiornare lo stato del libro.  
+Utilizza NUnit e un mock per `ILibraryRepository`.
+
+PROMPT 4 : Test per la Restituzione di Libri (Metodo ReturnBook)
+Scrivi test unitari per il metodo `ReturnBook` della classe `LibraryService`.  
+Il metodo deve:  
+1. Lanciare un'eccezione se il libro con l'ID specificato non esiste.  
+2. Lanciare un'eccezione se il libro è già disponibile (non è stato prestato).  
+3. Impostare correttamente la proprietà `IsAvailable` del libro su `true` se la restituzione è valida.  
+4. Assicurarsi che il metodo `Update` del repository venga chiamato per aggiornare lo stato del libro.  
+Utilizza NUnit e un mock per `ILibraryRepository`.
+
+PROMPT 5 : Mocking del Repository e Gestione delle Interazioni
+Scrivi un test unitario per verificare che il metodo `AddBook` della classe `LibraryService` chiami correttamente il metodo `Add` dell'interfaccia `ILibraryRepository` quando viene passato un libro valido.  
+Assicurati di utilizzare un mock per `ILibraryRepository` e verifica che il metodo `Add` venga chiamato con il libro corretto.
+
+PROMPT 6: Test Completo con Esempio di Mocking (Scenario Generale)
+Scrivi una suite di test unitari per la classe `LibraryService`, utilizzando NUnit e Moq per creare mock di `ILibraryRepository`.  
+I test devono coprire i seguenti metodi:  
+- `AddBook`: validazione dei dati in ingresso e verifica dell'aggiunta al repository.  
+- `FindBookByTitle`: gestione delle eccezioni e restituzione corretta dei dati.  
+- `LoanBook`: gestione delle eccezioni e aggiornamento dello stato del libro.  
+- `ReturnBook`: gestione delle eccezioni e aggiornamento dello stato del libro.  
+Assicurati che ogni test verifichi sia i risultati che le interazioni con il repository.
+
+PROMPT 7 : Utilizzo degli Slash Commands di GitHub Copilot
+/test Scrivi test unitari per la classe LibraryService in C#. I test devono coprire i metodi AddBook, FindBookByTitle, LoanBook e ReturnBook. 
+Usa Moq per simulare ILibraryRepository e NUnit per le asserzioning `ILibraryRepository` and NUnit for assertions.
+
+PROMPT 8: integration test
+Crea un test di integrazione in C# per il metodo CreateOrder. Il test deve simulare l'interazione con il database, validare la chiamata API al servizio esterno del magazzino e verificare la risposta sia in caso di successo che di fallimento.
+
+PROMPT 9 :
+Scrivi un test di integrazione in C# per il metodo CreateOrder. Utilizza ASP.NET Core TestServer per simulare richieste HTTP, mocka il client API esterno e configura un database in memoria per il testing. Il test deve includere casi per input non valido, creazione dell'ordine con successo e fallimento nella comunicazione API con il magazzino.
+
+PROMPT 10 :
+Configura un ambiente di testing per l'integrazione in C#. Usa xUnit per i test case, ASP.NET Core TestServer per simulare richieste HTTP e un database in memoria per il metodo CreateOrder. Fornisci la configurazione e un esempio di test case.
+
+
+PROMPT 11: End-To-End-To-End
+Scrivi un test end-to-end utilizzando Playwright per una pagina di login. Il test deve:
+Aprire la pagina di login.
+Inserire credenziali valide (username: 'testuser', password: 'password123').
+Cliccare sul pulsante di login.
+Verificare che l'utente venga reindirizzato alla dashboard.
+
+PROMPT 12 :
+Crea un test end-to-end utilizzando Cypress per il flusso di checkout di un sito e-commerce. Il test deve:
+Navigare alla homepage.
+Cercare un prodotto (ad esempio, 'laptop').
+Aggiungere il prodotto al carrello.
+Procedere al checkout.
+Inserire dettagli utente fittizi (nome, indirizzo, informazioni di pagamento).
+Inviare l'ordine e verificare il messaggio di conferma."
+
+PROMPT 13 :
+Configura un ambiente di test end-to-end utilizzando Playwright. Configura:
+Un browser headless per i test.
+Variabili d'ambiente per URL e credenziali.
+Screenshot automatici in caso di fallimento del test. Fornisci un esempio di un test di base."
+
+PROMPT 14 :
+Scrivi un test end-to-end utilizzando Selenium per un processo di registrazione multi-step. Copri scenari come:
+Compilazione di dettagli utente validi.
+Caricamento di un'immagine del profilo.
+Completamento di un CAPTCHA.
+Invio del modulo e verifica di una pagina di successo.
+Gestisci i casi in cui uno qualsiasi degli step fallisce e registra l'errore.
+
+PROMPT 15:
+Scrivi un test end-to-end combinando test API e UI utilizzando Cypress. Il test deve:
+Utilizzare una richiesta API per creare un utente di test.
+Usare l'interfaccia utente per effettuare il login con le credenziali dell'utente di test.
+Verificare che la dashboard dell'utente mostri i dati corretti
+
+
+
+
+
+
+
+
+
+

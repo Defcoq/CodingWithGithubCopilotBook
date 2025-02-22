@@ -1,0 +1,9 @@
+PROMPT 1 : 
+Ho un'applicazione di gestione attività scritta in C#. Ci sono alcuni bug che devono essere corretti. Il primo bug riguarda la rimozione di attività: il programma non verifica se l'attività esiste prima di rimuoverla, quindi voglio una correzione che aggiunga un controllo prima della rimozione. Il secondo bug riguarda la gestione degli errori:
+ voglio che il programma non permetta di aggiungere attività vuote. Infine, per favore, controlla la sintassi generale e fammi sapere se ci sono altri errori nascosti.
+ 
+PROMPT 2:
+
+
+
+
