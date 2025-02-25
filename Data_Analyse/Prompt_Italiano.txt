@@ -1,3 +1,42 @@
+PROMPT 1: 
+Prompt: Crea un dataset fittizio in Python con pandas per un'azienda di energia. Il dataset deve avere 100 clienti con le seguenti colonne: CustomerID, Age (18-80 anni), HouseholdSize (1-6), WeeklyWashFreq (0-10), WashHour (Morning, Afternoon, Evening, Night), HasElectricOven (0 o 1), HasElectricHeating (0 o 1), HasAirConditioning (0 o 1), MonthlyConsumption_kWh (100-1000 kWh). Usa numpy per generare valori casuali e imposta un seed per la riproducibilità.
+
+PROMPT 2 :
+Prompt: Scrivi codice Python per fare un'analisi esplorativa dei dati (EDA) del dataset df. Mostra statistiche descrittive con describe(), verifica valori mancanti, crea un istogramma della MonthlyConsumption_kWh con seaborn e un boxplot della MonthlyConsumption_kWh per WashHour. Usa matplotlib e seaborn per le visualizzazioni.
+
+PROMPT 3 :
+Prompt: Aggiungi feature engineering al dataset df in Python. Crea: 1) WashConsumption_kWh calcolando WeeklyWashFreq * 1 kWh, 2) TotalElectricAppliances sommando HasElectricOven, HasElectricHeating e HasAirConditioning, 3) HighUsageProfile (1 se MonthlyConsumption_kWh > 600 o TotalElectricAppliances > 2, altrimenti 0), 4) codifica WashHour con one-hot encoding usando pandas.
+
+PROMPT 4:
+Prompt: In Python, definisci una colonna RecommendedProduct nel dataset df con 3 prodotti energetici: Energy_A per MonthlyConsumption_kWh > 600 o HighUsageProfile = 1, Energy_B per MonthlyConsumption_kWh tra 300 e 600 con TotalElectricAppliances tra 1 e 2 e HighUsageProfile = 0, Energy_C per MonthlyConsumption_kWh <= 300. Usa np.select con una regola di default Energy_B.
+
+
+PROMPT 5 :
+Prompt: Scrivi una classe Python EnergyProductRecommender usando RandomForestClassifier per predire RecommendedProduct da df. La classe deve avere metodi train (split 80/20), predict (per nuovi clienti), e evaluate (accuracy e matrice di confusione con seaborn). Usa tutte le feature tranne CustomerID e RecommendedProduct.
+
+PROMPT 6 :
+Prompt: Scrivi codice Python per testare il modello EnergyProductRecommender su un nuovo cliente con Age=35, HouseholdSize=3, WeeklyWashFreq=5, WashHour='Afternoon', HasElectricOven=1, HasElectricHeating=0, HasAirConditioning=1, MonthlyConsumption_kWh=450. Assicurati che le feature corrispondano al dataset originale.
+
+PROMPT 7:
+Prompt: Scrivi una classe C# chiamata EnergyCustomer per rappresentare un cliente di un'azienda di energia con proprietà: CustomerID (int), Age (int, 18-80), HouseholdSize (int, 1-6), WeeklyWashFreq (int, 0-10), WashHour (string, Morning/Afternoon/Evening/Night), HasElectricOven (bool), HasElectricHeating (bool), HasAirConditioning (bool), MonthlyConsumptionKWh (float, 100-1000). Aggiungi un metodo statico GenerateSampleData(int count) per generare una lista di 100 clienti con dati casuali usando Random con seed 42.
+
+PROMPT 8:
+ Prompt: Scrivi codice C# con ML.NET per caricare una lista di EnergyCustomer, aggiungere feature engineering: 1) TotalElectricAppliances come somma di HasElectricOven, HasElectricHeating e HasAirConditioning, 2) WashConsumptionKWh come WeeklyWashFreq * 1, 3) codifica WashHour in one-hot encoding. Usa MLContext e un IDataView.
+ 
+PROMPT 9:
+ Prompt: In C# con ML.NET, aggiungi una colonna RecommendedProduct a EnergyCustomerTransformed usando una logica basata su MonthlyConsumptionKWh e TotalElectricAppliances (Energy_A: >600 kWh o >2 apparecchi, Energy_B: 300-600 kWh e 1-2 apparecchi, Energy_C: <=300 kWh). Poi addestra un modello multi-classe con SdcaMaximumEntropy su transformedData usando tutte le feature tranne CustomerID e RecommendedProduct.
+ 
+PROMPT 10 :
+ Prompt per Copilot:
+Prompt: Scrivi codice C# con ML.NET per testare il modello su un nuovo cliente: Age=35, HouseholdSize=3, WeeklyWashFreq=5, WashHour="Afternoon", HasElectricOven=true, HasElectricHeating=false, HasAirConditioning=true, MonthlyConsumptionKWh=450. Usa il modello addestrato per fare la predizione.
+
+
+
+
+
+
+
+ALTRI PROMPT per analisi Dati
 PROMPT 1: PYTHON
 Voglio creare uno script Python per un progetto di analisi dati. Ecco i requisiti:
 
